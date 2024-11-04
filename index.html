@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application_form</title>
+  </head>
+  <body style="text-align: center">
+    <td><h3>Application Form</h3></td>
+    <form>
+      <label for="f_name">First Name :</label>
+      <input
+        type="text"
+        name="First_name"
+        id="f_name"
+        placeholder="Enter your name"
+        required
+      />
+      <br />
+      <br />
+      <label for="S_name">Second Name :</label>
+      <input
+        type="text"
+        name="Second_name"
+        id="S_name"
+        placeholder="Enter your surname"
+      />
+      <br />
+      <br />
+      <label for="dob">Date of Birth : </label>
+      <input type="date" name="date_of_birth" id="dob" />
+      <br />
+      <br />
+      <label for="time">Time : </label>
+      <input type="time" name="time" id="time" value="11:30" disabled />
+      <br />
+      <br />
+      <label for="Mob_number">Mobile No : </label>
+      <input
+        type="tel"
+        name="Mobile_no"
+        id="Mob_number"
+        placeholder="Enter your mobile no."
+      />
+      <br>
+      <br>
+      <label for="linkedin_url">Linked In :</label>
+      <input
+        type="url"
+        name="linkedin_url"
+        id="linkedin_url"
+        placeholder="linkedin.com/username">
+      <br />
+      <br />
+      <label for="Email">Email id :</label>
+      <input
+        type="email"
+        name="email_id"
+        id="Email"
+        value="mahesh984920@gmail.com"
+        readonly
+      />
+      <br />
+      <br />
+      <label for="password"> Password :</label>
+      <input
+        type="password"
+        name="password"
+        placeholder="create new password"
+        required
+      />
+      <br>
+      <br>
+      <label for="resume">Resume : </label>
+      <input type="file" name="resume" id="resume">
+      <br>
+      <br>
+      <label for="profile_pic">Profile pic :</label>
+      <input type="image" src="https://media.licdn.com/dms/image/v2/D5603AQES0K6JQg0liA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1688963131849?e=1736380800&v=beta&t=z-n1YhdukHpQY7y7CjF3tS5S26V_wCMy1KCF5L0Dbt8" height="100">
+      <br />
+      <br />
+      <br />
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>
